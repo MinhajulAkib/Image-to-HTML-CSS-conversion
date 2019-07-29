@@ -1,0 +1,279 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+body {
+    font-family: arial, sans-serif, monospace;
+    line-height: 18px;
+    font-size: 14px;
+    color: #333;
+    background-color: wheat;
+
+}
+
+.template {
+    width: 960px;
+    margin: 0 auto;
+
+}
+
+.clear {
+    overflow: hidden;
+}
+
+.headersection {
+    height: 80px;
+}
+
+.header {
+    background: #333333;
+}
+
+.headerleft {
+    width: 400px;
+    color: #fff;
+    float: left;
+}
+
+.headerleft h2 {
+    font-size: 40px;
+    line-height: 65px;
+    padding-left: 45px;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
+.headerright {
+    width: 500px;
+    float: right;
+    padding-left: 60px;
+    color: #fff;
+
+
+}
+
+.headerright a {
+    font-size: 16px;
+    line-height: 90px;
+    padding-left: 5px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.headerright a:hover,
+#active {
+    color: orangered;
+}
+
+.mainsection {
+    background-color: white;
+}
+
+.slogansection {
+    border-bottom: 2px dotted #a8a8a8;
+    margin-left: 50px;
+    padding-bottom: 30px;
+    margin-top: 30px;
+    margin-right: 50px;
+    padding-bottom: 30px;
+}
+
+.slogansection h2 {
+    color: #000;
+    font-size: 40px;
+    line-height: 50px;
+    text-decoration: none;
+
+}
+
+.slogansection h3 {
+    font-size: 25px;
+    color: #bfbfbf;
+    line-height: 30px;
+    text-decoration: none;
+}
+
+.description {
+    border-bottom: 2px dotted #a8a8a8;
+    margin-left: 50px;
+    padding-bottom: 30px;
+    margin-top: 35px;
+    margin-right: 50px;
+    padding-bottom: 35px;
+    font-size: 25px;
+    color: #666;
+    text-align: justify;
+    line-height: 30px;
+}
+
+.contentsection {
+    margin-bottom: 40px;
+    padding-bottom: 30px;
+
+
+}
+
+.service {
+    background: #00adef;
+    -webkit-box-shadow: 8px 7px 0 0 #cfcfcf;
+    box-shadow: 7px 6px 0 0 #999;
+    margin-left: 40px;
+    padding: 30px;
+    padding-bottom: 35px;
+    margin-top: 35px;
+    width: 205px;
+    float: left;
+    text-align: justify;
+    border-bottom: 2px dotted #ababab;
+
+}
+
+.service h2 {
+    text-align: center;
+    margin-bottom: 15px;
+    color: #fff;
+    background: #00adef;
+    padding-bottom: 20px;
+    font-size: 30px;
+
+
+}
+
+.service p {
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.readmore {
+    background: #0076a4;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.readmore a {
+    color: #ddd;
+    text-decoration: none;
+    font-size: 16px;
+    text-transform: uppeecase;
+    font-weight: bold;
+}
+
+.mainbottom {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+    border-top: 2px dotted #cccccc;
+    padding-top: 30px;
+    border-bottom: 2px dotted #cccccc;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+}
+
+.clientsection {
+    width: 400px;
+    float: left;
+    border-right: 2px dotted #ccc;
+    padding-right: 30px;
+    margin-right: 20px;
+    text-align: justify;
+
+}
+
+.testmonial {
+    height: 160px
+}
+
+.testmonial h2 {
+    font-size: 20px;
+    color: black;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+.testmonial img {}
+
+.clientimage {
+    float: left;
+    width: 60px;
+    margin-right: 15px;
+}
+
+.clientimage img { height:50px;
+width:50px;}
+
+.clientdescription {
+    float: left;
+    width: 322px;
+}
+
+.clientdescription p {
+    float: left;
+    height: 40px;
+    font-size: 14px;
+    text-align-last:justify;
+    line-height: 20px;
+    
+}
+.clientdesciption a{
+   text-decoration: none;
+    color: #00adef;
+    height: 40px;
+    
+    
+    
+}
+.clientname{font-weight: bold;
+margin-top: 0px;
+color:#000 !important;
+}
+.projectsection {
+    width: 400px;
+    float: right:
+}
+
+.projectsection h2 {
+    font-size: 20px;
+    color: #;
+    line-height: 15px;
+    margin-bottom: 20px;
+}
+
+.projectsection h3 {
+    font-size: 20px;
+    color: #ccc;
+    line-height: 20px;
+    margin-bottom: 20px:
+}
+
+.projectsection img {
+    width: 100%;
+    margin-top: 10px;
+
+
+}
+
+.projectsection p {
+    text-align: justify;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    font-size: 16px;
+}
+
+.projectsection p a {
+    color: blue;
+}
+
+.footersection {
+    background: #cccccc;
+    float: center;
+    font-size: 15px;
+    color: brown;
+    margin-top: 1px;
+    padding-top: 30px
+}
